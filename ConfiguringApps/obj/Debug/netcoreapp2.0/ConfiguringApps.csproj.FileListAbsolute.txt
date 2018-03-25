@@ -1,0 +1,11 @@
+c:\users\narek\documents\visual studio 2017\Projects\ConfiguringApps\bin\Debug\netcoreapp2.0\ConfiguringApps.deps.json
+c:\users\narek\documents\visual studio 2017\Projects\ConfiguringApps\bin\Debug\netcoreapp2.0\ConfiguringApps.runtimeconfig.json
+c:\users\narek\documents\visual studio 2017\Projects\ConfiguringApps\bin\Debug\netcoreapp2.0\ConfiguringApps.runtimeconfig.dev.json
+c:\users\narek\documents\visual studio 2017\Projects\ConfiguringApps\bin\Debug\netcoreapp2.0\ConfiguringApps.dll
+c:\users\narek\documents\visual studio 2017\Projects\ConfiguringApps\obj\Debug\netcoreapp2.0\ConfiguringApps.csprojResolveAssemblyReference.cache
+c:\users\narek\documents\visual studio 2017\Projects\ConfiguringApps\obj\Debug\netcoreapp2.0\ConfiguringApps.csproj.CoreCompileInputs.cache
+c:\users\narek\documents\visual studio 2017\Projects\ConfiguringApps\obj\Debug\netcoreapp2.0\ConfiguringApps.AssemblyInfoInputs.cache
+c:\users\narek\documents\visual studio 2017\Projects\ConfiguringApps\obj\Debug\netcoreapp2.0\ConfiguringApps.AssemblyInfo.cs
+c:\users\narek\documents\visual studio 2017\Projects\ConfiguringApps\bin\Debug\netcoreapp2.0\ConfiguringApps.pdb
+c:\users\narek\documents\visual studio 2017\Projects\ConfiguringApps\obj\Debug\netcoreapp2.0\ConfiguringApps.dll
+c:\users\narek\documents\visual studio 2017\Projects\ConfiguringApps\obj\Debug\netcoreapp2.0\ConfiguringApps.pdb
