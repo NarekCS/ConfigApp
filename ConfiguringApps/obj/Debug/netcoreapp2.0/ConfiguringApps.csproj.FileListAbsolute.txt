@@ -9,3 +9,14 @@ c:\users\narek\documents\visual studio 2017\Projects\ConfiguringApps\obj\Debug\n
 c:\users\narek\documents\visual studio 2017\Projects\ConfiguringApps\bin\Debug\netcoreapp2.0\ConfiguringApps.pdb
 c:\users\narek\documents\visual studio 2017\Projects\ConfiguringApps\obj\Debug\netcoreapp2.0\ConfiguringApps.dll
 c:\users\narek\documents\visual studio 2017\Projects\ConfiguringApps\obj\Debug\netcoreapp2.0\ConfiguringApps.pdb
+C:\Users\narek\Source\Repos\ConfigApp\ConfiguringApps\bin\Debug\netcoreapp2.0\ConfiguringApps.deps.json
+C:\Users\narek\Source\Repos\ConfigApp\ConfiguringApps\bin\Debug\netcoreapp2.0\ConfiguringApps.runtimeconfig.json
+C:\Users\narek\Source\Repos\ConfigApp\ConfiguringApps\bin\Debug\netcoreapp2.0\ConfiguringApps.runtimeconfig.dev.json
+C:\Users\narek\Source\Repos\ConfigApp\ConfiguringApps\bin\Debug\netcoreapp2.0\ConfiguringApps.dll
+C:\Users\narek\Source\Repos\ConfigApp\ConfiguringApps\bin\Debug\netcoreapp2.0\ConfiguringApps.pdb
+C:\Users\narek\Source\Repos\ConfigApp\ConfiguringApps\obj\Debug\netcoreapp2.0\ConfiguringApps.csprojResolveAssemblyReference.cache
+C:\Users\narek\Source\Repos\ConfigApp\ConfiguringApps\obj\Debug\netcoreapp2.0\ConfiguringApps.csproj.CoreCompileInputs.cache
+C:\Users\narek\Source\Repos\ConfigApp\ConfiguringApps\obj\Debug\netcoreapp2.0\ConfiguringApps.AssemblyInfoInputs.cache
+C:\Users\narek\Source\Repos\ConfigApp\ConfiguringApps\obj\Debug\netcoreapp2.0\ConfiguringApps.AssemblyInfo.cs
+C:\Users\narek\Source\Repos\ConfigApp\ConfiguringApps\obj\Debug\netcoreapp2.0\ConfiguringApps.dll
+C:\Users\narek\Source\Repos\ConfigApp\ConfiguringApps\obj\Debug\netcoreapp2.0\ConfiguringApps.pdb
