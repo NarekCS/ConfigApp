@@ -25,9 +25,9 @@ namespace ConfiguringApps
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .ConfigureAppConfiguration((hostingContext, config) =>
                     {
-                   // var env = hostingContext.HostingEnvironment;
-                    config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
-                   // .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true, reloadOnChange: true);
+                      var env = hostingContext.HostingEnvironment;
+                    config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                   .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true, reloadOnChange: true);
 
                    /* if (env.IsDevelopment())
                     {
@@ -54,7 +54,7 @@ namespace ConfiguringApps
                     {
                     options.ValidateScopes = context.HostingEnvironment.IsDevelopment();
                     })
-                .UseStartup<Startup>()
+                .UseStartup(nameof(ConfiguringApps))
                 .Build();
                 
             //WebHost.CreateDefaultBuilder(args).UseStartup<Startup>().Build();

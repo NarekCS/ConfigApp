@@ -27,10 +27,15 @@ namespace ConfiguringApps
             services.AddMvc().AddMvcOptions(options => { options.RespectBrowserAcceptHeader = true; });
         }
      
+        public void ConfigureDevelopmentServices(IServiceCollection services)
+        {
+            services.AddSingleton<UptimeService>();
+            services.AddMvc();
+        }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            if ((Configuartion.GetSection("ShortCircuitMiddleware")?.GetValue<bool>("EnableBrowserShortCircuit")).Value)
+           /* if ((Configuartion.GetSection("ShortCircuitMiddleware")?.GetValue<bool>("EnableBrowserShortCircuit")).Value)
             {
                 app.UseMiddleware<BrowserTypeMiddleware>();
                 app.UseMiddleware<ShortCircuitMiddleware>();
@@ -45,7 +50,7 @@ namespace ConfiguringApps
                 app.UseStatusCodePages();
                 app.UseBrowserLink();
             }
-            else
+            else*/
             {
                 app.UseExceptionHandler("/Home/Error");
             }
@@ -62,6 +67,14 @@ namespace ConfiguringApps
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
                     });
+        }
+        public void ConfigureDevelopment(IApplicationBuilder app, IHostingEnvironment env)
+        {
+            app.UseDeveloperExceptionPage();
+            app.UseStatusCodePages();
+            app.UseBrowserLink();
+            app.UseStaticFiles();
+            app.UseMvcWithDefaultRoute();
         }
     }
 }
