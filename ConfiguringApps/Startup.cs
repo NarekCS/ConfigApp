@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -23,9 +24,9 @@ namespace ConfiguringApps
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<UptimeService>();
-            services.AddMvc();
+            services.AddMvc().AddMvcOptions(options => { options.RespectBrowserAcceptHeader = true; });
         }
-        
+     
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
@@ -48,7 +49,7 @@ namespace ConfiguringApps
             {
                 app.UseExceptionHandler("/Home/Error");
             }
-
+            
             /*app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("Hello World!");
